@@ -10,7 +10,7 @@ module fullAdder(x, y, cin, cout, sum);
   or(cout, w1, w2, w3);
 endmodule
 
-module test_fullAdder;
+module test_bench_fullAdder;
 
   reg x_1, y_1, cin_1;
   wire cout_1, sum_1;
